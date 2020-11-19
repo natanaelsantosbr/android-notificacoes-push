@@ -61,5 +61,14 @@ public class MyFirebaseMessagingService extends FirebaseMessagingService {
     @Override
     public void onNewToken(@NonNull String s) {
         super.onNewToken(s);
+
+        //Moto G
+        //c3N-bmZ9SPyPXkU4IVoU91:APA91bEkXbdXh4HpUZ5xWMn4COr70YMWk1NBEt75dJ1OLj3GNWLROKqYYNskmT-h7yXE2en0xoNZv4qUBvaO9JacDFCBx_y6lZ4OKM2FKieEM7o0aOxjfjiFwmaPUycpjBtrX6YF8y5J
+
+        //emulador 1
+        //ev-0ReV3SNGdylmMeNYdja:APA91bEP2kWfuFnxMCd9rHBq6KGft3Bg6Ql62szrrMwquJ_9qz38fQBgRwmhNlc3-hQ1aJgFT_VJ8UPjWi6-0KgXDycykrcj8iUISLaA-qA2w4rU0pgWynClsao_mU1H727JIlbBKa3a
+
+
+        Log.i("onNewToken", "onNewToken: " + s);
     }
 }
