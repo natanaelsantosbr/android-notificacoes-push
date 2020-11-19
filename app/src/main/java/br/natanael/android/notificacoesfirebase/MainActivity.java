@@ -44,7 +44,7 @@ public class MainActivity extends AppCompatActivity {
 
     public  void enviarNotificacao(View view)
     {
-        String to = "/topics/alemao";
+        String to = "/token/c3N-bmZ9SPyPXkU4IVoU91:APA91bEkXbdXh4HpUZ5xWMn4COr70YMWk1NBEt75dJ1OLj3GNWLROKqYYNskmT-h7yXE2en0xoNZv4qUBvaO9JacDFCBx_y6lZ4OKM2FKieEM7o0aOxjfjiFwmaPUycpjBtrX6YF8y5J";
         Notificacao notificacao = new Notificacao("Titulo da notificacao","Corpo da notificacao");
 
         NotificacaoDados notificacaoDados = new NotificacaoDados(to, notificacao);
